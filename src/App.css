@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+*{
+  box-sizing:border-box; 
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: regb(244,244,244);
+  color:#333; 
+}
+.container{
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 40px;
+
+}
+.title{
+  font-size:20px ;
+  text-align: center;
+  background-color: rgb(235, 217, 217);
+  height: 50px;
+  
+}
+
+input{
+  justify-content: center;
+
+}
+.form{
+  display: grid;
+}
+.label{
+  font-size: 1rem;
+
+
+}
+.input{
+font-size: 1rem;
+padding: 0.5rem 2rem;
+line-height: 2rem;
+border-radius: 20px;
+border: 1px solid #ddd; 
+margin-bottom: 1rem;
+}
+.button{
+  background-color: rgba(0,0,0,0.75);
+  color: white;
+  padding: 1rem solid rgba(0,0,0,0.75);
+  border-radius:20px ;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 250ms;
+  height: 40px;
+ 
+}
+.button:hover{
+  background-color: rgba(0,0,0,0.85);
+}
+
+.inputA{
+  border: none; 
+  margin-top:5px;
+  margin-bottom: 15px;
+
+}
+.label{
+  font-size: 1rem;
+  margin: 10px;
+
+
+}
+.input{
+font-size: 1rem;
+padding: 0.5rem 2rem;
+line-height: 2rem;
+border-radius: 20px;
+border: 1px solid #ddd; 
+margin-bottom: 1rem;
+}
+.button{
+  background-color: rgba(0,0,0,0.75);
+  color: white;
+  padding: 1rem solid rgba(0,0,0,0.75);
+  border-radius:20px ;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 250ms;
+  height: 40px;
+ 
+}
+.button:hover{
+  background-color: rgba(0,0,0,0.85);
+}
+
+@media(min-width:788px){
+  .form{
+    grid-template-columns: auto ifr auto;
+    grid-gap:1rem; 
+    align-items: center;
+  }
+  .input{
+    margin-bottom: 0;
+  }
+}
